@@ -12,5 +12,4 @@ func main() {
 		fmt.Fprintln(writer, "Hello, ", html.EscapeString(request.URL.Path))
 	})
 	log.Fatal(http.ListenAndServe(":8080", nil))
-		println("test")
 }
